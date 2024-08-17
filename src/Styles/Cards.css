@@ -1,0 +1,72 @@
+section{
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+}
+
+.cards{
+    width: 250px;
+    padding: 20px;
+}
+.cards:hover{
+    box-shadow: 0 10px 10px 10px rgba(0,0,0,0.1);
+    cursor: pointer;
+}
+.image_box img{
+    width: 150px;
+    height: 200px;
+}
+.button1{
+    align-items: center;
+    background-color:#87CEEB;
+    width: 100px;
+    height:30px;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor:pointer;
+
+}
+
+.add_button{
+    cursor:pointer;
+    width: 100px;
+    height:30px;
+    background-color: #87CEEB;
+    border-color: #87CEEB;
+    border-radius: 5px;
+    
+}
+.price{
+ color: green;
+ font-weight: bold;
+}
+.title{
+    font-weight: bold;
+}
+.button6{
+    width: 30px;
+    height: 30px;
+    cursor:pointer;
+    border-radius: 5px;
+    padding: 0px;
+    margin: 5px;
+    background-color:beige;
+    border-color: beige;
+    cursor:pointer;
+    
+}
+.button7{
+    width: 30px;
+    height: 30px;
+    
+                               ;
+}
+.title{
+
+color: black;
+
+
+}
